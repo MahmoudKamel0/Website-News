@@ -1,0 +1,14 @@
+:root {
+       font-family      : "Maven Pro", sans-serif;
+       --transition     : 0.5s;
+       
+       --primary-txt    : #333335;   
+       --primary-color  : var(--primary-txt);
+       
+       --nav-color      : #475569;   
+       --color-3        : var(--nav-color);
+}
+
+a {
+       color: #1461cc;
+}
