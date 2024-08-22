@@ -42,7 +42,7 @@ export default function Home() {
        // f562d9407ed74d169e764ab44dd7800a
 
        async function getNewsArticle(){
-              let response = await axios.get(`https://newsapi.org/v2/everything?q=random&from=${date}&sortBy=publishedAt&apiKey=f562d9407ed74d169e764ab44dd7800a`);
+              let response = await axios.get(`https://newsapi.org/v2/everything?q=random&from=${date}&sortBy=publishedAt&apiKey=${apiKey}`);
 
               setData(response.data.articles)              
        }
