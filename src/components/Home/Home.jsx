@@ -35,7 +35,9 @@ export default function Home() {
 
        const today = new Date();
        const date = `${today.getUTCFullYear}-${today.getUTCMonth}-${today.getUTCDay}`
-       const apiKey = process.env.NEWS_API_KEY; // for vercel
+       const apiKey = import.meta.env.VITE_NEWS_API_KEY; // for vercel
+       console.log(apiKey);
+       
 
        // f562d9407ed74d169e764ab44dd7800a
 
